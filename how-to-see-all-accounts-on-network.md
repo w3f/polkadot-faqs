@@ -1,0 +1,3 @@
+You could use Subsquid for this. Thanks to Lucas, our erstwhile Grants intern, for finding this: https://app.subsquid.io/aquarium/polkadot-balances
+
+It's SQL - just change the "limit" variable to the number you want (note that it will take a while to run if you have a very large number here). The result will be in JSON, and amounts are shown in Plancks (like satoshis in Bitcoin, one DOT = 10_000_000_000 Plancks).

@@ -1,0 +1,1 @@
+If you want to use Ledger, you will need the XL version of the app, as the light version does not support the necessary extrinsics. See https://github.com/zondax/ledger-polkadot#voterlist

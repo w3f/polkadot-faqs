@@ -1,0 +1,1 @@
+You can query block information from a specific block using Network->Block Details (e.g.  https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/explorer/query/14000000 ) and then look at the extrinsics for the block

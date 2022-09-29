@@ -1,0 +1,5 @@
+Depends on what you mean by a "good thing". The ideal rate was estimated as the ideal rate for the network to have locked in the staking mechanism for security. However, this also means less rewards for individual nominators, and the estimate is just that - an estimate. It could be that the network would operate optimally with less or more than the "ideal rate".
+
+The ideal staking rate should vary based on the number of parachains (since some DOT/KSM will be locked for securing parachain slots), down to a minimum of 50%. Kusama reduces the ideal staking rate by 0.5 percentage points per parachain, and has many more parachains than Polkadot. This algorithm for modifying the ideal staking rate based on the number of parachains was not implemented on Polkadot; I'm not sure of the rationale behind that. Perhaps it ensures that there is much more locked to ensure a higher security level of Polkadot.
+
+You can see more information here: https://wiki.polkadot.network/docs/learn-staking#inflation

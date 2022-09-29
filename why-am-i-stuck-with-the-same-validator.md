@@ -1,0 +1,5 @@
+As /u/antiwrappingpaper said, it's sometimes difficult to understand why Phragmen does what it does. It's a complicated algorithm -  https://wiki.polkadot.network/docs/learn-phragmen. I've definitely had times where I was stuck with the same validator for long periods of time (in one case, much to my detriment, as the validator had changed their commission rate to 100%... but I digress...)
+
+Generally, however, the reason this happens is because your amount of DOT/KSM fits very well to help reduce the variance (which is one of the big goals of Phragmen). So for example, if the mean amount of DOT on a validator is 1_000_000, and you are nominating that validator with 10_000 DOT and another account is nominating it with 990_000, you both will often find yourself nominating that validator since they "fit" so well.
+
+That said, nominating is essentially an "approval" process - you are saying that you would be OK with nominating any of the validators you select for nomination. If you're not OK with actively nominating that validator, on a regular basis or not, you shouldn't be nominating it.

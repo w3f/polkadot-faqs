@@ -1,0 +1,3 @@
+Yes. There have been several discussions in the past on changing this (e.g. https://polkadot.polkassembly.io/post/145 ), but right now they can change at any point (although there are some limitations on e.g. how low a validator can set its commission on Kusama - there is a 3% minimum, increasing above 10% invalidates it for the 1KV Programme, etc.).
+
+It is generally considered to be up to the nominator to keep an eye on their validators, e.g. with SubVT https://github.com/helikon-labs/subvt-backend/.

@@ -1,0 +1,1 @@
+Click on the "Bags" tab on that page, or go directly there with the URL - https://polkadot.js.org/apps/#/staking/bags
